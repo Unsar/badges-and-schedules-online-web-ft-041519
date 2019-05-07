@@ -13,5 +13,7 @@ end
 
 def assign_rooms(rooms)
 array=[]
-rooms.each do |
-push("Hello, #{name}! You'll be assigned to room #{room}!")
+rooms.each do |each|
+array.push("Hello, #{name}! You'll be assigned to room #{room}!")
+end
+end
