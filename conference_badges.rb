@@ -1,3 +1,6 @@
 # Write your code here.
-def badge_maker(name)
-  name.each do ||
+def badge_maker(names)
+  names.each do |name|
+    puts "Hello, my name is #{name}"
+  end
+end
